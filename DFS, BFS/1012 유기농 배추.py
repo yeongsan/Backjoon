@@ -31,6 +31,7 @@ def bfs(y,x):
                     graph[yy][xx] = 0
                     queue.append([yy, xx])
 
+                    
 for _ in range(T):
     result = 0
     M, N, K = map(int, input().split())  # M:가로, N: 세로
